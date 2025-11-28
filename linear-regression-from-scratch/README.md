@@ -1,4 +1,4 @@
-# Mini Project No. 1 – Linear Regression from Scratch
+# Project No. 1 – Linear Regression from Scratch
 
 **Author:** Idris Benseghir   
 **Date:** November 2025   
@@ -19,6 +19,7 @@ The objective is not only to fit a predictive model, but to **derive, compute, a
   
 Finally, both approaches are compared through **numerical metrics, regression line plots**, and **residual analysis**, confirming an almost perfect match between theoretical and library-based implementations.
 
+---  
 **Part 1 — Data Pre-Processing**  
 This section prepares the dataset for regression:  
 - Load the CSV file using pandas.  
@@ -27,8 +28,9 @@ This section prepares the dataset for regression:
 - Visualize the relationship using a scatter plot.  
 - Compute Pearson correlation manually and with NumPy.
 
-*Goal: ensure the data is clean and understand the pattern before modeling*
+*Goal: ensure the data is clean and understand the pattern before modeling*  
 
+---
 **Part 2 — Manual Linear Regression**
 Everything in this part is done **from scratch**, using pure math:  
 - Data Splitting 80% for training 20% for testing.  
@@ -41,3 +43,15 @@ Everything in this part is done **from scratch**, using pure math:
   - Root Mean Squared Error (RMSE)  
     
 *Goal: fully understand how linear regression works internally*  
+
+---
+**Part 3 — Scikit-Learn Linear Regression**  
+Here we apply the same dataset using:   
+from sklearn.linear_model import LinearRegression  
+- Fit the model  
+- Extract model slope (coef_)  
+- Extract intercept (intercept_)  
+- Predict values (predict())  
+- Evaluate with sklearn’s own functions  
+  
+*Goal: get a trusted baseline to validate the manual math.*
