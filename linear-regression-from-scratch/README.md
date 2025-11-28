@@ -60,14 +60,11 @@ All steps in this part are performed **from scratch**, using pure mathematical f
 ## Part 3 — Scikit-Learn Linear Regression  
 
 Here, the dataset is modeled using scikit-learn:  
-
-```python
-from sklearn.linear_model import LinearRegression
-
+`from sklearn.linear_model import LinearRegression`  
 - Fit the model  
-- Extract model slope (coef_)  
-- Extract intercept (intercept_)  
-- Predict values (predict())  
+- Extract model slope (`coef_`)  
+- Extract intercept (`intercept_`)  
+- Predict values (`predict()`)  
 - Evaluate with sklearn’s own functions  
   
 *Goal: get a trusted baseline to validate the manual math.*   
