@@ -17,8 +17,8 @@ The objective is not only to fit a predictive model, but to **derive, compute, a
   - Mean Absolute Error (MAE)  
   - Root Mean Squared Error (RMSE)
   
-Finally, both approaches are compared through **numerical metrics, regression line plots**, and **residual analysis**, confirming an almost perfect match between theoretical and library-based implementations.  
----
+Finally, both approaches are compared through **numerical metrics, regression line plots**, and **residual analysis**, confirming an almost perfect match between theoretical and library-based implementations.
+
 **Part 1 — Data Pre-Processing**  
 This section prepares the dataset for regression:  
 - Load the CSV file using pandas.  
@@ -28,3 +28,16 @@ This section prepares the dataset for regression:
 - Compute Pearson correlation manually and with NumPy.
 
 *Goal: ensure the data is clean and understand the pattern before modeling*
+
+**Part 2 — Manual Linear Regression**
+Everything in this part is done **from scratch**, using pure math:  
+- Data Splitting 80% for training 20% for testing.  
+- Model Fitting - Culculating the slope 'b1' and y intercept 'b0'  
+- Manual Prediction Function.  
+- Manual Accuracy Metrics:  
+  - R² Score  
+  - Standard Error of the Estimate (SEE)  
+  - Mean Absolute Error (MAE)  
+  - Root Mean Squared Error (RMSE)  
+    
+*Goal: fully understand how linear regression works internally*  
