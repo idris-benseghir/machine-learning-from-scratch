@@ -75,6 +75,7 @@ This final part shows a side-by-side comparison:
 - Manual slope vs sklearn slope  
 - Manual intercept vs sklearn intercept  
 - Manual predictions vs sklearn predictions  
-- Metrics comparison (MAE, RMSE, R², etc.)  
-The results match **almost perfectly** (small floating-point differences only).  
-*Goal: prove that the manual implementation is mathematically correct.*
+- Metrics comparison (MAE, RMSE, R², etc.)
+  
+The results match **almost perfectly** (small floating-point differences only).   
+*Goal: prove that the manual implementation is mathematically correct.*   
