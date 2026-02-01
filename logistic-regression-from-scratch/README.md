@@ -8,6 +8,7 @@
 ---
 
 **Project Description**
+
 This project presents a complete implementation of Logistic Regression from scratch using NumPy and Pandas, followed by a validation against scikit-learn’s Logistic Regression model.
 
 Rather than relying on high-level machine learning abstractions, the model is built manually to demonstrate a strong understanding of classification theory, optimization, and evaluation metrics.
