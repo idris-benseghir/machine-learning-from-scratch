@@ -42,7 +42,7 @@ Data Preparation
 - Applied sigmoid activation
 - Optimized parameters using batch gradient descent
 - Generated predictions using a decision threshold (0.5)
-
+---
 **Model Evaluation**
 
 A confusion matrix is constructed manually, from which the following metrics are computed:
@@ -51,7 +51,7 @@ A confusion matrix is constructed manually, from which the following metrics are
 - Recall
 - F1 Score
 The same metrics are then computed using scikit-learn for comparison and validation.
-
+---
 **Technologies Used**
 
 - Python
@@ -59,12 +59,12 @@ The same metrics are then computed using scikit-learn for comparison and validat
 - Pandas
 - Matplotlib
 - scikit-learn (used only for comparison)
-
+---
 **Results**
 
 The manually implemented model achieves competitive performance compared to scikit-learn’s Logistic Regression.
 Minor differences are expected due to sklearn’s default regularization and solver configuration.
-
+---
 **Academic Value**
 
 This project emphasizes conceptual understanding over convenience.
