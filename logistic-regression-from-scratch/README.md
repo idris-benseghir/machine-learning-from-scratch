@@ -15,6 +15,7 @@ Rather than relying on high-level machine learning abstractions, the model is bu
 ---
 
 **Objectives**
+
 - Implement Logistic Regression without using machine learning libraries
 - Understand and code the sigmoid function and log-loss
 - Train the model using batch gradient descent
@@ -23,6 +24,7 @@ Rather than relying on high-level machine learning abstractions, the model is bu
 ---
 
 **Methodology Overview**
+
 The project follows a structured machine learning pipeline:
 Data Preparation
 - Loaded and explored the Titanic dataset
@@ -34,6 +36,7 @@ Data Preparation
 ---
 
 **Model Implementation (From Scratch)**
+
 - Initialized weights and bias
 - Computed linear combinations of features
 - Applied sigmoid activation
@@ -41,6 +44,7 @@ Data Preparation
 - Generated predictions using a decision threshold (0.5)
 
 **Model Evaluation**
+
 A confusion matrix is constructed manually, from which the following metrics are computed:
 - Accuracy
 - Precision
@@ -49,6 +53,7 @@ A confusion matrix is constructed manually, from which the following metrics are
 The same metrics are then computed using scikit-learn for comparison and validation.
 
 **Technologies Used**
+
 - Python
 - NumPy
 - Pandas
@@ -56,10 +61,12 @@ The same metrics are then computed using scikit-learn for comparison and validat
 - scikit-learn (used only for comparison)
 
 **Results**
+
 The manually implemented model achieves competitive performance compared to scikit-learn’s Logistic Regression.
 Minor differences are expected due to sklearn’s default regularization and solver configuration.
 
 **Academic Value**
+
 This project emphasizes conceptual understanding over convenience.
 By implementing Logistic Regression manually, it demonstrates:
 - Strong mathematical foundations
