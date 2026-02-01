@@ -1,16 +1,15 @@
 # Project No. 2 – Logistic Regression from Scratch
 
 
-**Author:** Abdallah Idris Benseghir
-**Date:** December 2025
-**Dataset:** `Titanic Dataset`
+**Author:** Abdallah Idris Benseghir   
+**Date:** December 2025   
+**Dataset:** `Titanic Dataset`   
 
 ---
 
 **Project Description**
 
-This project presents a complete implementation of Logistic Regression from scratch using NumPy and Pandas, followed by a validation against scikit-learn’s Logistic Regression model.
-
+This project presents a complete implementation of Logistic Regression from scratch using NumPy and Pandas, followed by a validation against scikit-learn’s Logistic Regression model.   
 Rather than relying on high-level machine learning abstractions, the model is built manually to demonstrate a strong understanding of classification theory, optimization, and evaluation metrics.
 
 ---
@@ -63,8 +62,8 @@ The same metrics are then computed using scikit-learn for comparison and validat
 ---
 **Results**
 
-The manually implemented model achieves competitive performance compared to scikit-learn’s Logistic Regression.
-Minor differences are expected due to sklearn’s default regularization and solver configuration.
+The manually implemented model achieves competitive performance compared to scikit-learn’s Logistic Regression.   
+Minor differences are expected due to sklearn’s default regularization and solver configuration.   
 
 ---
 **Academic Value**
