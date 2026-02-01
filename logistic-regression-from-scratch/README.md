@@ -65,6 +65,7 @@ The same metrics are then computed using scikit-learn for comparison and validat
 
 The manually implemented model achieves competitive performance compared to scikit-learn’s Logistic Regression.
 Minor differences are expected due to sklearn’s default regularization and solver configuration.
+
 ---
 **Academic Value**
 
